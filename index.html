@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <button id="themeButton">Change theme color</button> <!--theme button-->
+    <title>Personal Bio</title>
+
+ </head>
+ <body>
+<nav>
+    <ul>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#pics">Pics</a></li>
+    </ul>
+</nav>
+
+<div class= "profile-card">
+    <img src= "hampter.png" alt ="Profile Picture" class="profile-pic">
+    <h3>eep3</h3>
+    <p>Web Developer</p>
+    <p>Hobbies: Video games, Voiceover, Drawing, Comics & Manga</p>
+</div>
+
+    <div id= "name">
+<h1>eep3</h1>
+    </div>
+
+    <div id = "hobbies">
+<h2>Hobbies & Interest</h2>
+<ul>
+    <li>Videogames</li>
+    <li>Voiceover</li>
+    <li>Drawing</li>
+    <li>Comics & Manga</li>
+<ul>
+    </div>
+
+    <div id = "pics">
+<h2>pics</h2>
+<img src="spidey wow.png" alt="spidey flabbergasted" width="500">
+<img src="sniff.png" alt="doggo sniff" width="500">
+    </div>
+
+<!--script for theme button-->
+ <script> 
+ document.getElementById('themeButton').addEventListener('click', function() {
+    document.body.classList.toggle('dark-theme');
+});
+</script>
+</body>
+</html>

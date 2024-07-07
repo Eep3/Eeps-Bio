@@ -1,0 +1,94 @@
+body {
+    background-color: #079e80; /* green background */
+    font-family: sans-serif;
+    color: black; /* black text */
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', serif;
+    color: black; /* black text */
+}
+h1 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    padding: 5px;
+}
+#name, #hobbies, #pics {
+    margin: 20px;
+    border: 1px solid #ddd; /*Light grey border */
+    padding: 20px;
+    background-color: #f9f9f9; /* light background for each section */
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* styles for dark theme */
+.dark-theme{
+    background-color: #333; /* Dark background */
+    color: #000000; /* dark text */
+}
+
+.dark-theme h1, .dark-theme h2 {
+    color: #079e80; /* green color for headers in dark theme */
+}
+
+/* Navigation menu styles */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #85ffe7;
+}
+
+/* profile card */
+.profile-card {
+    width: 300px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* circular image */
+    margin: 0 auto;
+}
